@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <link rel="stylesheet" href="1.1 test.css">
+    <title>login form</title>
+    <script>
+        function idpass(){
+        var names1=document.getElementById("names").value;
+        var passwd1=document.getElementById("passwords").value;
+        if (names1=="Himanshu" && passwd1=="himu1234"){
+            alert("Welcome");
+            window.location.href="1st test 3.html"
+        }
+        else{
+            alert("username or password is wrong");
+        }
+    }
+    </script>
+</head>
+<body>
+    <div>
+    <h1> Welcome to online service </h1>
+    <h2>For login</h2>
+    <form action="#">
+    Name <input type="text" id="names">
+    <br>
+    <br>
+    Password <input type="password" id="passwords">
+    <br>
+    <br>
+    <input type="submit" id="login" onclick="idpass()">
+    <br> 
+    <br>
+
+    If u dont have account
+    <a href="1.2 test.html">
+    <button>signup</button></a>
+</form>
+</div>
+</body>
+</html>

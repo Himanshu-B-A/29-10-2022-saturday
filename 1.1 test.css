@@ -1,0 +1,47 @@
+h1{
+    color: aliceblue;
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+}
+
+body{
+    background-color: rgb(255, 0, 0);
+    text-align: center;
+    size: 8px;
+}
+
+#login {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+}
+button {
+    color: white;
+    background-color: rgb(255, 0, 0);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100px;
+}
+
+div{
+    background-color: rgb(27, 25, 39);
+    border: rgb(255, 0, 0);
+    border-radius: 10px;
+    border-style: solid;
+    padding-bottom: 20px;
+    padding-left: 0;
+    width: 100ch;
+    margin-left: 300px;
+}
+body{
+    background-image: url(backg);
+    backdrop-filter: brightness(100%);
+}
+
+div{
+    color: white;
+}
